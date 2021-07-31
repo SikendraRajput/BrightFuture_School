@@ -1,0 +1,293 @@
+@charset "ISO-8859-1";
+
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	margin:0;
+	padding:0;
+}
+.navbar{
+	/*font-family: 'Baloo 2', cursive;*/
+	font-family: 'Roboto', sans-serif;
+	background-color:#eac5c536;
+	position:fixed;
+}
+.navbar ul{
+	display:flex;
+	height: 64px;
+}
+.navbar ul li{
+	display:flex;
+	font-size: 20px;
+    margin: 5px 20px;
+    padding: 12px 15px;
+    color: white;
+	
+}
+.navbar ul li a{
+	    text-decoration: none;
+    color: black;
+}
+#log{
+	margin-left: 500px;
+    background: #f0ffff6e;
+}
+.navbar ul li a:hover{
+	transition-timing-function: ease;
+	color:orange;
+	
+}
+.home{
+    height: 100vh;
+    font-size: 41px;
+    text-align: center;
+    justify-content:center;
+    }
+    
+    h1{
+  
+    display: block;
+    position: absolute;
+    color: #ffffffdb;
+    left: 135px;
+    top: 300px;
+}
+
+
+img{
+	height:100%;
+	width:100%;
+}
+
+.about{
+	font-family: 'Averia Sans Libre', cursive;
+	    height: 100vh;
+   
+}
+.about h1{
+	    position: relative;
+    top: 50px;
+    color: black;
+    padding: 12px;
+    font-size: 24px;	
+}
+#first{
+	    font-size: 45px;
+	    color:black;     
+}
+ .service{
+  display:grid;
+  grid-gap:0.5rem;
+  position:relative;
+      padding-top: 15px;
+    padding-left: 55px;
+  grid-template-columns:1fr 1fr;
+ height:90vh;
+background: #f3e8e869;
+ }
+
+ #s1{
+ height:200px;
+ width:200px;
+ background:black;
+
+ }
+ .service img{
+ height:200px;
+ width:200px;
+ }
+
+ .sport,.library{
+ cursor:pointer;
+ }
+.sport p{
+	color:#804040;
+	    position: relative;
+    left: 245px;
+    font-size: 22px;
+    top: -185px;
+    display:none;
+}
+.sport:hover p{
+	 transition-delay: 1s;
+	  transition-duration: 2s;
+	display:block;
+	font-family: 'Roboto', sans-serif;
+}
+.service .sport:hover h2{
+	display:none;
+}
+.service .library:hover h2{
+	display:none;
+}
+.service .singing:hover h2{
+	display:none;
+}
+.service .environment:hover h2{
+	display:none;
+}
+.library p{
+	
+	color:black;
+	    position: relative;
+    left: 245px;
+    font-size: 22px;
+    top: -185px;
+    display:none;
+}
+.library:hover p{
+	 transition-delay: 1s;
+	  transition-duration: 2s;
+	display:block;
+	font-family: 'Roboto', sans-serif;
+}
+ .service .sport h2{
+     display: block;
+    color: white;
+    position: absolute;
+    left: 349px;
+    top: 90px;
+    color: black;
+    font-size: 43px;
+ }
+  .service .library h2{
+  display: block;
+    color: white;
+    position: absolute;
+    left: 1000px;
+    top: 90px;
+    color: black;
+    font-size: 43px;
+ }
+ .singing p{
+	
+	color:black;
+	    position: relative;
+    left: 245px;
+    font-size: 22px;
+    top: -185px;
+    display:none;
+}
+.singing:hover p{
+	 transition-delay: 1s;
+	  transition-duration: 2s;
+	display:block;
+	font-family: 'Roboto', sans-serif;
+}
+ .service .singing h2{
+     display: block;
+    color: white;
+    position: absolute;
+    left: 349px;
+    top: 295px;
+    color: black;
+    font-size: 43px;
+ }
+ 
+ .environment p{
+	
+	color:black;
+	    position: relative;
+    left: 245px;
+    font-size: 22px;
+    top: -185px;
+    display:none;
+}
+.environment:hover p{
+	 transition-delay: 1s;
+	  transition-duration: 2s;
+	display:block;
+	font-family: 'Roboto', sans-serif;
+}
+ .service .environment h2{
+     display: block;
+    color: white;
+    position: absolute;
+    left: 1000px;
+    top: 295px;
+    color: black;
+    font-size: 43px;
+ }
+ 
+ .team {
+ position:relative;
+ height:80vh;
+font-family: 'Baloo 2', cursive;
+ 
+ }
+ .team h2{
+ padding-top:45px;
+ padding-left:832px; 
+ font-size:29px;
+ }
+ #owner{
+    padding: 25px 32px;
+    padding-left: 873px;
+ }
+
+ #staph{
+    padding: 25px 172px;
+    padding-left: 860px;
+ }
+#contact{
+height:100vh;
+background-repeat: no-repeat;
+background:#d6c5c508;
+}
+ .form{
+	    position: absolute;
+    display: block;
+    height: 255px;
+    width: 333px;
+    margin-top: 66px;
+    margin-left: 155px;
+     background: #00000012;
+}
+.form input{
+    display: flex;
+    padding: 5px 50px;
+    position: relative;
+    margin:23px;
+
+}
+#contact h3{
+    position: relative;
+    top: 56px;
+    left: 245px;
+    font-size: 23px;
+}
+#contact .con{
+    position: relative;
+    left: 388px;
+}
+#contact .con h3{
+    margin: 28px 0px;
+    font-size: 17px;
+   font-family: 'Rubik', sans-serif;
+}
+
+ .logo{
+	display: flex;
+    position: relative;
+    top: 89px;
+    left: 638px;
+}
+.logo a{
+	    margin: 5px;
+}
+.logo a img{
+height: 42px;
+    width: 42px;
+    cursor:pointer;
+}
+ .footer{
+     height: 34px;
+    background: #00000042;
+    top: 410px;
+    position: relative;
+    display: block;
+    text-align: center;
+ }
